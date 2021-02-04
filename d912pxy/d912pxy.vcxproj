@@ -185,7 +185,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>d3d9</TargetName>
+    <TargetName>d3d9_chainload</TargetName>
     <OutDir>$(SolutionDir)\bin\d912pxy\dll\debug\</OutDir>
     <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
     <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
@@ -195,19 +195,19 @@
     <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
     <IncludePath>$(ProjectDir);$(IncludePath)</IncludePath>
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>d3d9</TargetName>
+    <TargetName>d3d9_chainload</TargetName>
     <OutDir>$(SolutionDir)\bin\d912pxy\dll\debug_x86\</OutDir>
     <IntDir>$(SolutionDir)\compiler_output\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)\bin\d912pxy\dll\release\</OutDir>
-    <TargetName>d3d9</TargetName>
+    <TargetName>d3d9_chainload</TargetName>
     <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
     <IntDir>$(SolutionDir)\compiler_output\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <TargetName>d3d9</TargetName>
+    <TargetName>d3d9_chainload</TargetName>
     <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
     <LinkIncremental>false</LinkIncremental>
     <IntDir>$(SolutionDir)\compiler_output\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
@@ -216,12 +216,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_avx|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)\bin\d912pxy\dll\release_avx\</OutDir>
-    <TargetName>d3d9</TargetName>
+    <TargetName>d3d9_chainload</TargetName>
     <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
     <IntDir>$(SolutionDir)\compiler_output\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_avx|Win32'">
-    <TargetName>d3d9</TargetName>
+    <TargetName>d3d9_chainload</TargetName>
     <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
     <LinkIncremental>false</LinkIncremental>
     <IntDir>$(SolutionDir)\compiler_output\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
@@ -230,12 +230,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_avx2|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)\bin\d912pxy\dll\release_avx2\</OutDir>
-    <TargetName>d3d9</TargetName>
+    <TargetName>d3d9_chainload</TargetName>
     <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
     <IntDir>$(SolutionDir)\compiler_output\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_avx2|Win32'">
-    <TargetName>d3d9</TargetName>
+    <TargetName>d3d9_chainload</TargetName>
     <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)\bin\d912pxy\dll\release_avx2_x86\</OutDir>
@@ -244,12 +244,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_d|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)\bin\d912pxy\dll\release_d\</OutDir>
-    <TargetName>d3d9</TargetName>
+    <TargetName>d3d9_chainload</TargetName>
     <IntDir>$(SolutionDir)\compiler_output\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
     <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_d|Win32'">
-    <TargetName>d3d9</TargetName>
+    <TargetName>d3d9_chainload</TargetName>
     <LinkIncremental>false</LinkIncremental>
     <IntDir>$(SolutionDir)\compiler_output\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
     <OutDir>$(SolutionDir)\bin\d912pxy\dll\release_d_x86\</OutDir>
@@ -258,12 +258,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_pp|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)\bin\d912pxy\dll\release_pp\</OutDir>
-    <TargetName>d3d9</TargetName>
+    <TargetName>d3d9_chainload</TargetName>
     <IntDir>$(SolutionDir)\compiler_output\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
     <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_pp|Win32'">
-    <TargetName>d3d9</TargetName>
+    <TargetName>d3d9_chainload</TargetName>
     <LinkIncremental>false</LinkIncremental>
     <IntDir>$(SolutionDir)\compiler_output\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
     <OutDir>$(SolutionDir)\bin\d912pxy\dll\release_pp_x86\</OutDir>
